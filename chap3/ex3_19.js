@@ -1,5 +1,5 @@
 var emptyArray = [];
 var emptyObj = {};
 
-console.dir(emptyArray._proto_);
-console.dir(emptyObj._proto_);
+console.dir(emptyArray.__proto__);
+console.dir(emptyObj.__proto__);
